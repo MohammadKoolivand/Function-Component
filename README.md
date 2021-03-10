@@ -13,8 +13,7 @@ creating a Function component has some steps to do:
 
 ```js
 function Welcome(props) {
-  return <h2>This is a function Component</h2>;
+  return <h1>Hello, {props.name}</h1>;
 }
-
 ```
 ## Function Components Lifecycle
