@@ -11,4 +11,4 @@ function Welcome(props) {
 }
 ```
 ## Function Components Lifecycle
-Lifecycle in react is managed by **`useEffect`** hook.
+Lifecycle in react is managed by **`useEffect`** hook. If useEffect doesnt have any dependency, it acts like **ComponentDidMount** ans if it has dependency, it looks like **ComponentDidUpdate**
